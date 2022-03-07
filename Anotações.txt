@@ -1,0 +1,3 @@
+O que é ?
+
+Assets : É onde geralmente colocamos todos os arquivos estáticos, como CSS (os arquivos de estilo), imagens (logo, imagens do produto, fotos de pessoas), arquivos JavaScript, ícones, fontes e assim por diante. Dentro dela encontraremos subpastas especificando cada conteúdo, como "css", referente aos arquivos de estilo, e "img", referente às imagens do projeto.
