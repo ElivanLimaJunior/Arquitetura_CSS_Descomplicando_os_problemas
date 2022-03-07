@@ -1,6 +1,39 @@
-header {
+header { /* Adicionando display flex na tag header, pois ela é a tag pai das tag IMG e NAV. Também feito alinhamentos dos itens com o display flex e a ceparação dos filhos com o "JUSTIFY-CONTENT: SPACE-BETWEEN". */
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #f9f9f9;
+     /*Adicionamos esses 2 paddings abaixo, para criar um espaço na direita e na esquerda do header. fazendo com que os itens não fiquem grudados nas margem do header*/
+    padding-left: 2rem;
+    padding-right:  2rem;
+}
+
+header nav ul { /* Display flex na tag ul pois ela é o pai da tag Li que se refere a nossa lista de itens de navegação */
+    display: flex;
+}
+
+header nav ul li { /* Removendo os estilos da tag LI. */
+    list-style: none;
+}
+
+header nav ul li:last-child a { /* Last-Child: Isso que dizer que nós estamos pegando o último filho de uma tag. Neste caso nós estamos pegando o último Li dentro da tag Ul. E logo após estamos pegando a tag A dentro deste Li para estilizala.
+    
+    Nosso objetivo é remover a margem do ultimo filho que está a direita de acordo com o FIGMA.*/
+    margin-right: 0;
+}
+
+header nav ul li a { /*Adicionando estilos a nossos links. Colocamos uma margem(Margin-Right) para desgruda-los, e também foi removido a decoração dos links(Text-decoration). Também fizemos todas as letras ficarem em minusculas(text-transform).*/
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+header nav ul li a#ativo { /* #ativo seria o ID que iremos definir na tag A lá no Index.html. No nosso figma, o primeiro link estava em uma cor + escura e as letras em Negrito. Então criamos um ID para ele */
+    color: #333333;
+    font-weight: bold;
+}
+
+header nav ul li a:hover { /*Colocando um hover para quando passarmos o mouse por cima ele aparecer o UNDERLINE no texto. */
+    text-decoration: underline;
 }
