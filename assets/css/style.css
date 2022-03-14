@@ -8,7 +8,7 @@ header { /* Adicionando display flex na tag header, pois ela é a tag pai das ta
     padding-right:  2rem;
 }
 
-header nav ul { /* Display flex na tag ul pois ela é o pai da tag Li que se refere a nossa lista de itens de navegação */
+header nav ul { /* Display flex na tag ul pois ela é o pai da tag Li que se refere a nossa lista de itens de navegação*/
     display: flex;
 }
 
