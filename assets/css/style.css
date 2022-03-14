@@ -3,7 +3,7 @@ header { /* Adicionando display flex na tag header, pois ela é a tag pai das ta
     align-items: center;
     justify-content: space-between;
     background-color: #f9f9f9;
-     /*Adicionamos esses 2 paddings abaixo, para criar um espaço na direita e na esquerda do header. fazendo com que os itens não fiquem grudados nas margem do header*/
+     /*Adicionamos esses 2 paddings abaixo, para criar um espaço na direita e na esquerda do header. fazendo com que os itens não fiquem grudados nas margem do header */
     padding-left: 2rem;
     padding-right:  2rem;
 }
