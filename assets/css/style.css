@@ -29,7 +29,7 @@
     text-transform: lowercase;
 }
 
-.menu-item #ativo { /* #ativo seria o ID que iremos definir na tag A lá no Index.html. No nosso figma, o primeiro link estava em uma cor + escura e as letras em Negrito. Então criamos um ID para ele */
+.menu-link.ativo { /* #ativo seria o ID que iremos definir na tag A lá no Index.html. No nosso figma, o primeiro link estava em uma cor + escura e as letras em Negrito. Então criamos um ID para ele */
     color: #333333;
     font-weight: bold;
 }
