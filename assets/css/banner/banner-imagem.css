@@ -1,4 +1,4 @@
 .banner__imagem {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 72px); /*Um calculo para o header caber no VH junto com a imagem.*/
     width: 100%; /*para a imagem ocupar 100% do espaço na tela.*/
 }
