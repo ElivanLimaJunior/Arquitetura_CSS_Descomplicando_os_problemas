@@ -1,0 +1,12 @@
+.banner__titulo {
+    color: #fdfdfd;
+    font-family: pacifico, cursive;
+    font-size: 5.0625rem;
+    position: absolute; /*O position absolute nos deixa usar o LEFT e TOP para alinharmos o item na página. Esse position absolute inicialmente está sendo posicionado relativamento a PAGINA, então é necessario nós colocarmos position relative no CONTAIER para que ele sejá relativo ao contaier*/
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
