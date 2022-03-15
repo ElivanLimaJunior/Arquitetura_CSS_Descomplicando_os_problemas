@@ -1,0 +1,26 @@
+BEM
+
+o que é ?
+
+Block Element Modifier
+
+Bloco Elemento Modificador
+
+O BEM é uma teologia para que a gente tenha um padrão para nomear nossas classes.
+
+
+
+
+Como seria a organização ?
+
+bloco               (tudo minisculo)
+
+bloco__elemento                 
+
+bloco--Modificador              
+
+ou                              
+
+bloco__elemento--modificador    
+
+Podemos ver isso no nosso código. Podemos bater o olho na página e sabermos exatamente onde cada qual está em nossa página.
