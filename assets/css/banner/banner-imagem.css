@@ -1,4 +1,4 @@
 .banner__imagem {
-    height: 100vh;
+    height: calc(100vh - 72px);
     width: 100%; /*para a imagem ocupar 100% do espaço na tela.*/
 }
