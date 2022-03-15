@@ -1,0 +1,15 @@
+.menu-link { /*Adicionando estilos a nossos links. Colocamos uma margem(Margin-Right) para desgruda-los, e também foi removido a decoração dos links(Text-decoration). Também fizemos todas as letras ficarem em minusculas(text-transform).*/
+    color: #808080;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.menu-link.ativo { /* #ativo seria o ID que iremos definir na tag A lá no Index.html. No nosso figma, o primeiro link estava em uma cor + escura e as letras em Negrito. Então criamos um ID para ele */
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu-link:hover { /*Colocando um hover para quando passarmos o mouse por cima ele aparecer o UNDERLINE no texto. */
+    text-decoration: underline;
+}

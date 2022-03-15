@@ -1,0 +1,13 @@
+.menu-lista { /* Display flex na tag ul pois ela é o pai da tag Li que se refere a nossa lista de itens de navegação*/
+    display: flex;
+}
+
+.menu-item { /* Removendo os estilos da tag LI. */
+    list-style: none;
+}
+
+.menu-item:last-child a { /* Last-Child: Isso que dizer que nós estamos pegando o último filho de uma tag. Neste caso nós estamos pegando o último Li dentro da tag Ul. E logo após estamos pegando a tag A dentro deste Li para estilizala.
+    
+    Nosso objetivo é remover a margem do ultimo filho que está a direita de acordo com o FIGMA.*/
+    margin-right: 0;
+}

@@ -1,0 +1,9 @@
+.cabecalho { /* Adicionando display flex na tag header, pois ela é a tag pai das tag IMG e NAV. Também feito alinhamentos dos itens com o display flex e a ceparação dos filhos com o "JUSTIFY-CONTENT: SPACE-BETWEEN". */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+     /*Adicionamos esses 2 paddings abaixo, para criar um espaço na direita e na esquerda do header. fazendo com que os itens não fiquem grudados nas margem do header */
+    padding-left: 2rem;
+    padding-right:  2rem;
+}
