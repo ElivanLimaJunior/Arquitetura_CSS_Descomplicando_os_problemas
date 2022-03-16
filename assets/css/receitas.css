@@ -1,0 +1,7 @@
+.receitas {
+    background: #e5e5e5;
+    display: flex; /* Aplicado a propriedade PAI, Para que os cartões comecem a ficar uns do lado do outro
+    Isso já foi estudado: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+    flex-wrap: wrap; /*Para que aja a quebra de itens quando não estiver + espaço*/
+    padding: 5rem 0 0 5rem;
+}

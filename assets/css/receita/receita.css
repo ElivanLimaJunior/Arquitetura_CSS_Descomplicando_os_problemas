@@ -1,0 +1,8 @@
+.receita {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem); /*Como ele estava muito separado da direita, fizemos esse calc para ele tirar os 5rem da margin que colocamos na direita.*/
+}
