@@ -1,12 +1,12 @@
 .pessoa__imagem {
     background: red;
-    height: 300px;
-    width: 300px;
-    margin: 0 auto; /*Esse Auto é para que ele centralize a nossa imagem*/
+    background-position: center; /*para que a imagem fique no centro do espaço disponivel*/
     background-repeat: no-repeat; /*para que a imagem não se repita. Para fazer um teste comente essa linha.*/
     background-size: cover; /*Para que a imagem tome o espaço todo disponivel*/
-    background-position: center; /*para que a imagem fique no centro do espaço disponivel*/
     border-radius: 100%;
+    height: 300px;
+    margin: 0 auto; /*Esse Auto é para que ele centralize a nossa imagem*/
+    width: 300px;
 }
 
 
