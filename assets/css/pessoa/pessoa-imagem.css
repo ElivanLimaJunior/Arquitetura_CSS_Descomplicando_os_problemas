@@ -1,0 +1,24 @@
+.pessoa__imagem {
+    background: red;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto; /*Esse Auto é para que ele centralize a nossa imagem*/
+    background-repeat: no-repeat; /*para que a imagem não se repita. Para fazer um teste comente essa linha.*/
+    background-size: cover; /*Para que a imagem tome o espaço todo disponivel*/
+    background-position: center; /*para que a imagem fique no centro do espaço disponivel*/
+    border-radius: 100%;
+}
+
+
+/*O "pessoa__imagem--roberta"    se trata de uma classe modificadora do "pessoa__imagem" assim como as outras que tem __ e logo após -- e um diferencial como o nome de cada uma dessas imagem. Para adicionar essa imagem é usado o background image e um url com uma string para pegar a iamgem da sua pasta de destino.*/
+.pessoa__imagem--roberta {
+    background-image: url("../../img/pessoas/roberta.jpg");
+}
+
+.pessoa__imagem--marcela {
+    background-image: url("../../img/pessoas/marcela.jpg");
+}
+
+.pessoa__imagem--andreia {
+    background-image: url("../../img/pessoas/andreia.jpg");
+}
