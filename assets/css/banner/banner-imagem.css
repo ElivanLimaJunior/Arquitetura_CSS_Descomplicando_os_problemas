@@ -1,7 +1,6 @@
 .banner__imagem {
-    background: 
-    url("../../img/banner.jpg") no-repeat center / cover; 
-    
+    background: url('../../img/banner.jpg') no-repeat center / cover; 
+
     /*Documentação do: Shorthand Background CSS
     https://www.w3schools.com/css/css_background_shorthand.asp
     */
@@ -9,7 +8,7 @@
     /*background-image: url("../../img/banner.jpg"); /*Imagem*/
     /*background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    height: calc(100vh - 72px); /*Um calculo para o header caber no VH junto com a imagem.*/
+    background-position: center;*/
+    height: calc(100vh - 72px); /*Um calculo para o header caber no VH junto com a imagem.
     width: 100%; /*para a imagem ocupar 100% do espaço na tela.*/
 }
