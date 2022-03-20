@@ -3,6 +3,28 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 5rem;
+    /*
     margin-right: 5rem;
-    width: calc(25% - 5rem); /*Como ele estava muito separado da direita, fizemos esse calc para ele tirar os 5rem da margin que colocamos na direita.*/
+    width: calc(25% - 5rem); Agora estão sendo declarados no @media*/ /*Como ele estava muito separado da direita, fizemos esse calc para ele tirar os 5rem da margin que colocamos na direita.*/
+}
+
+@media screen and (min-width: 0) {
+    .receita {
+        margin-right: 1rem;
+        width: 100%; /*Para ficar uma receita por linha*/
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33.33% - 2.5rem); /*3 receitas numa linha e depois ele aumenta para 4.*/
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receita {
+        margin-right: 5rem;
+        width: calc(25% - 5rem);
+    }
 }

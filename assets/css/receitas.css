@@ -3,5 +3,23 @@
     display: flex; /* Aplicado a propriedade PAI, Para que os cartões comecem a ficar uns do lado do outro
     Isso já foi estudado: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
     flex-wrap: wrap; /*Para que aja a quebra de itens quando não estiver + espaço*/
-    padding: 5rem 0 0 5rem;
+    /*padding: 5rem 0 0 5rem;*/ /*Este é um valor defaut, então ele vai para o @media.*/
+}
+
+@media screen and (min-width: 0) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .receitas {
+padding: 5rem 0 0 5rem;
+    }
 }
