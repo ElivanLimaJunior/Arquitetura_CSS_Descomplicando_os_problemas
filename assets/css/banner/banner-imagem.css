@@ -9,6 +9,19 @@
     /*background-repeat: no-repeat;
     background-size: cover;
     background-position: center;*/
-    height: calc(100vh - 72px); /*Um calculo para o header caber no VH junto com a imagem.
+    /*height: calc(100vh - 72px);*/ /*Foi removido o height daqui pois agora ele está sendo declarado no @media*/
+     /*Um calculo para o header caber no VH junto com a imagem.*/
     width: 100%; /*para a imagem ocupar 100% do espaço na tela.*/
+}
+
+@media screen and (min-width: 0) {
+    .banner__imagem {
+        height: calc(100vh - 51px);
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    .banner__imagem{
+        height: calc(100vh - 72px);
+    }
 }
